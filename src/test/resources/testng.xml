@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Contact_List_App_TestSuite" parallel="classes" thread-count="3">
+    <test name="Contact list tests">
+        <classes>
+            <class name="testCases.TC_001_SingUpAndAddNewContact"/>
+            <class name="testCases.TC_002_AddContactInvalidDateOfBirth"/>
+            <class name="testCases.TC_003_DeleteExistingContact"/>
+        </classes>
+    </test>
+</suite>
